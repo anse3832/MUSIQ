@@ -15,3 +15,15 @@ The environmental settings are described below. (I cannot gaurantee if it works 
 - json=2.0.9
 - tqdm=4.45.0
 
+# Train & Validation
+First, you need to download weights of ResNet50 pretrained on ImageNet database.
+- Downlod the weights from this website (https://download.pytorch.org/models/resnet50-0676ba61.pth)
+- rename the .pth file as "resnet50.pth" and put it in the "model" folder
+
+Second, you need to download the KonIQ-10k dataset.
+- Download the database from this website (http://database.mmsp-kn.de/koniq-10k-database.html)
+- set the database path in "train.py" (It is represented as "db_path" in "train.py")
+- Please check "koniq-10k.txt" is in "IQA_list" folder
+
+After those settings, you can run the train & validation code by
+python train.py
