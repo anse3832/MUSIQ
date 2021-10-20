@@ -1,5 +1,6 @@
-# MUSIQ
+# MUSIQ: Multi-Scale Image Quality Transformer
 Unofficial pytorch implementation of the paper "MUSIQ: Multi-Scale Image Quality Transformer"
+(paper link: https://arxiv.org/abs/2108.05997)
 
 This code doesn't exactly match what the paper describes.
 - It only works on the KonIQ-10k dataset. Or it works on the database which resolution is 1024(witdh) x 768(height).
