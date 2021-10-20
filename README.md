@@ -26,4 +26,8 @@ Second, you need to download the KonIQ-10k dataset.
 - Please check "koniq-10k.txt" is in "IQA_list" folder
 
 After those settings, you can run the train & validation code by running "train.py"
-- python3 train.py
+- python3 train.py (execution code)
+- Options are all included in "train.py". So you should change the variable "config" in "train.py" 
+
+# Inference
+Inference code will be uploaded soon
