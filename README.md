@@ -25,5 +25,5 @@ Second, you need to download the KonIQ-10k dataset.
 - set the database path in "train.py" (It is represented as "db_path" in "train.py")
 - Please check "koniq-10k.txt" is in "IQA_list" folder
 
-After those settings, you can run the train & validation code by
-python train.py
+After those settings, you can run the train & validation code by running "train.py"
+- python3 train.py
