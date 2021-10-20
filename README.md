@@ -3,7 +3,7 @@ Unofficial pytorch implementation of the paper "MUSIQ: Multi-Scale Image Quality
 
 This code doesn't exactly match what the paper describes.
 - It only works on the KonIQ-10k dataset. Or it works on the database which resolution is 1024(witdh) x 768(height).
-- Instead of using 5-layer Resnet, we use ResNet50 pretrained on ImageNet database.
+- Instead of using 5-layer Resnet as a backbone network, we use ResNet50 pretrained on ImageNet database.
 - We need to implement Earth Mover Distance (EMD) loss to train on other databases.
 
 The environmental settings are described below. (I cannot gaurantee if it works on other environments)
