@@ -6,6 +6,7 @@ This code doesn't exactly match what the paper describes.
 - It only works on the KonIQ-10k dataset. Or it works on the database which resolution is 1024(witdh) x 768(height).
 - Instead of using 5-layer Resnet as a backbone network, we use ResNet50 pretrained on ImageNet database.
 - We need to implement Earth Mover Distance (EMD) loss to train on other databases.
+- We additionally use ranking loss to improve the performance (we will upload the training code including ranking loss later)
 
 The environmental settings are described below. (I cannot gaurantee if it works on other environments)
 - Pytorch=1.7.1 (with cuda 11.0)
