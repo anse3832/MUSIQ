@@ -39,4 +39,7 @@ Belows are the validation performance on KonIQ-10k database (I'm still training 
 
 # Inference
 First, you need to specify variables in "inference.py"
+- dirname: root folder of test images
+- checkpoint: checkpoint file (trained on KonIQ-10k dataset)
+- result_score_txt: inference score will be saved on this txt file
 ![image](https://user-images.githubusercontent.com/77471764/138195041-3176224f-6ab6-42b1-aa61-f9ec8a1ffa96.png)
