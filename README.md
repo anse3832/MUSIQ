@@ -26,6 +26,7 @@ Second, you need to download the KonIQ-10k dataset.
 - Download the database from this website (http://database.mmsp-kn.de/koniq-10k-database.html)
 - set the database path in "train.py" (It is represented as "db_path" in "train.py")
 - Please check "koniq-10k.txt" is in "IQA_list" folder
+- "koniq-10k.txt" file includes [scene number / image name / ground truth score] information
 
 After those settings, you can run the train & validation code by running "train.py"
 - python3 train.py (execution code)
