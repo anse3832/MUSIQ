@@ -30,7 +30,7 @@ After those settings, you can run the train & validation code by running "train.
 - python3 train.py (execution code)
 - This code works on single GPU. If you want to train this code in muti-gpu, you need to change this code
 - Options are all included in "train.py". So you should change the variable "config" in "train.py"
-If the codes are implemented exactly the same as the paper, the performance can be further improved
+- If the codes are implemented exactly the same as the paper, the performance can be further improved
 
 Belows are the validation performance on KonIQ-10k database (I'm still training the code, so the results will be updated later)
 - SRCC: 0.8877
