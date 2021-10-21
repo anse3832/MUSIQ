@@ -32,12 +32,9 @@ After those settings, you can run the train & validation code by running "train.
 - Options are all included in "train.py". So you should change the variable "config" in "train.py"
 ![image](https://user-images.githubusercontent.com/77471764/138195607-cf7165a1-dd64-4031-b1ab-872012f7046a.png)
 
-If the codes are implemented exactly the same as the paper, the performance can be further improved
-
 Belows are the validation performance on KonIQ-10k database (I'm still training the code, so the results will be updated later)
-- SRCC: 0.8877
-- PLCC: 0.9152
-
+- SRCC: 0.8877 / PLCC: 0.9152
+- If the codes are implemented exactly the same as the paper, the performance can be further improved
 
 # Inference
 First, you need to specify variables in "inference.py"
@@ -45,3 +42,6 @@ First, you need to specify variables in "inference.py"
 - checkpoint: checkpoint file (trained on KonIQ-10k dataset)
 - result_score_txt: inference score will be saved on this txt file
 ![image](https://user-images.githubusercontent.com/77471764/138195041-3176224f-6ab6-42b1-aa61-f9ec8a1ffa96.png)
+
+After those settings, you can run the inference code by running "inference.py"
+- python3 inference.py (execution code)
