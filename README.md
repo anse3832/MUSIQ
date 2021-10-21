@@ -38,4 +38,5 @@ Belows are the validation performance on KonIQ-10k database (I'm still training 
 
 
 # Inference
-Inference code will be uploaded soon
+First, you need to specify variables in "inference.py"
+![image](https://user-images.githubusercontent.com/77471764/138195041-3176224f-6ab6-42b1-aa61-f9ec8a1ffa96.png)
