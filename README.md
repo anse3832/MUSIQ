@@ -45,3 +45,6 @@ First, you need to specify variables in "inference.py"
 
 After those settings, you can run the inference code by running "inference.py"
 - python3 inference.py (execution code)
+
+# Acknolwdgements
+We refer to the following website to implement the transformer (https://paul-hyun.github.io/transformer-01/)
