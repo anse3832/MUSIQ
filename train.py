@@ -14,7 +14,7 @@ from utils.util import RandHorizontalFlip, Normalize, ToTensor, RandShuffle
 # config file
 config = Config({
     # device
-    'gpu_id': "3",
+    'gpu_id': "0",                          # specify GPU number to use
     'num_workers': 8,
 
     # data
