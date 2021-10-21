@@ -28,7 +28,13 @@ Second, you need to download the KonIQ-10k dataset.
 
 After those settings, you can run the train & validation code by running "train.py"
 - python3 train.py (execution code)
-- Options are all included in "train.py". So you should change the variable "config" in "train.py" 
+- Options are all included in "train.py". So you should change the variable "config" in "train.py"
+If the codes are implemented exactly the same as the paper, the performance can be further improved
+
+Belows are the performance on KonIQ-10k database (I'm still training the code, so the results will be updated later)
+- SRCC: 0.8877
+- PLCC: 0.9152
+
 
 # Inference
 Inference code will be uploaded soon
