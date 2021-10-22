@@ -35,7 +35,7 @@ After those settings, you can run the train & validation code by running "train.
 ![image](https://user-images.githubusercontent.com/77471764/138195607-cf7165a1-dd64-4031-b1ab-872012f7046a.png)
 
 Belows are the validation performance on KonIQ-10k database (I'm still training the code, so the results will be updated later)
-- SRCC: 0.9002 / PLCC: 0.9203 (after training 95 epochs)
+- SRCC: 0.9023 / PLCC: 0.9232 (after training 105 epochs)
 - If the codes are implemented exactly the same as the paper, the performance can be further improved
 
 # Inference
